@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1 className="App-title" > Welcome to your react app</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+
+        <p className='apptitle' > 
+          These are our changes to this docker
+        </p>
       </header>
     </div>
   );
