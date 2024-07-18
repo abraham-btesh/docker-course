@@ -12,9 +12,9 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-north-1"
   env: "Frontend-env"
-  app: "Frontend-env"
+  app: "frontend"
   bucket_name: "elasticbeanstalk-eu-north-1-058264170834"
-  bucket_path: "Frontend-env"
+  bucket_path: "frontend"
   on: 
     branch: master
   access_key_id: $AWS_ACCESS_KEY
